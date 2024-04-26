@@ -1,0 +1,119 @@
+PS B:\David Ayala\PROGRAMACIÓN\proyecto_archivador_POO\proyecto_archivador_POO\Proyecto\Script> Node .\ProgramaFinal.js
+Nombre del laboratorio: SURA
+Seleccione el tipo de prueba:
+1. Sangre
+2. Orina
+3. Heces
+4. Tejido
+5. Secreciones
+6. Líquido cefalorraquídeo
+7. Líquido sinovial
+8. Biopsias
+9. Saliva
+10. Lágrimas
+11. Líquido amniótico
+12. Esputo
+Ingrese el n├║mero de la prueba: 2
+Costo de la prueba: 40000
+Nombre de la persona: PAOLO
+Edad de la persona: 18
+Género:
+1. Masculino
+2. Femenino
+Seleccione el g├®nero (1/2): 1
+Régimen:
+1. Subsidiado
+2. Contributivo
+Seleccione el r├®gimen (1/2): 1
+Nivel Sisben:
+A. Nivel A
+B1. Nivel B1
+B2. Nivel B2
+Seleccione el nivel de Sisben (A/B1/B2): A
+┬┐Agregar otra persona a esta prueba? (s/n): N
+┬┐Agregar otra prueba al laboratorio? (s/n): S
+Seleccione el tipo de prueba:
+1. Sangre
+2. Orina
+3. Heces
+4. Tejido
+5. Secreciones
+6. Líquido cefalorraquídeo
+7. Líquido sinovial
+8. Biopsias
+9. Saliva
+10. Lágrimas
+11. Líquido amniótico
+12. Esputo
+Ingrese el n├║mero de la prueba: 8
+Costo de la prueba: 60000
+Nombre de la persona: CARLOS
+Edad de la persona: 40
+Género:
+1. Masculino
+2. Femenino
+Seleccione el g├®nero (1/2): 1
+Régimen:
+1. Subsidiado
+2. Contributivo
+Seleccione el r├®gimen (1/2): 2
+Ingreso mensual de la persona: 6000000
+┬┐Agregar otra persona a esta prueba? (s/n): N
+┬┐Agregar otra prueba al laboratorio? (s/n): N
+┬┐Agregar otro laboratorio? (s/n): S
+Nombre del laboratorio: ABC LAB
+Seleccione el tipo de prueba:
+1. Sangre
+2. Orina
+3. Heces
+4. Tejido
+5. Secreciones
+6. Líquido cefalorraquídeo
+7. Líquido sinovial
+8. Biopsias
+9. Saliva
+10. Lágrimas
+11. Líquido amniótico
+12. Esputo
+Ingrese el n├║mero de la prueba: 4
+Costo de la prueba: 800000
+Nombre de la persona: PAULA
+Edad de la persona: 30
+Género:
+1. Masculino
+2. Femenino
+Seleccione el g├®nero (1/2): 2
+Régimen:
+1. Subsidiado
+2. Contributivo
+Seleccione el r├®gimen (1/2): 2
+Ingreso mensual de la persona: 3000000
+┬┐Agregar otra persona a esta prueba? (s/n): S
+Nombre de la persona: CARMENZA
+Edad de la persona: 55
+Género:
+1. Masculino
+2. Femenino
+Seleccione el g├®nero (1/2): 2
+Régimen:
+1. Subsidiado
+2. Contributivo
+Seleccione el r├®gimen (1/2): 1
+Nivel Sisben:
+A. Nivel A
+B1. Nivel B1
+B2. Nivel B2
+Seleccione el nivel de Sisben (A/B1/B2): A
+┬┐Agregar otra persona a esta prueba? (s/n): N
+┬┐Agregar otra prueba al laboratorio? (s/n): N
+┬┐Agregar otro laboratorio? (s/n): N
+1. Ingresos totales por concepto de pruebas de laboratorio: $ 1606307.69
+2. Ingresos totales por régimen:
+   - Contributivo: $ 860000.00
+   - Subsidiado: $ 840000.00
+3. Tipo de examen más rentable: Tejido
+4. Total de descuentos brindados según el Sisben: $ 93692.31
+5. Promedio de ingresos por laboratorio: $ 803153.85
+6. Laboratorios por debajo del promedio: [ 'SURA' ]
+7. Laboratorios por encima del promedio: [ 'ABC LAB' ]
+PS B:\David Ayala\PROGRAMACIÓN\proyecto_archivador_POO\proyecto_archivador_POO\Proyecto\Script>
