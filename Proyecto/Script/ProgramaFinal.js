@@ -51,8 +51,8 @@ class Prueba {
             }
         }
 
-        if (persona.regimen === 'contributivo' && persona.ingreso > 3 * 877803) { // Salario mínimo en Colombia para 2022
-            let salarioAdicional = (persona.ingreso - 3 * 877803) / 877803;
+        if (persona.regimen === 'contributivo' && persona.ingreso > 3 * 1300000) { // Salario mínimo en Colombia para 2024 1.300.000
+            let salarioAdicional = (persona.ingreso - 3 * 1300000) / 1300000;
             descuento += this.costo * (0.10 * salarioAdicional);
         }
 
