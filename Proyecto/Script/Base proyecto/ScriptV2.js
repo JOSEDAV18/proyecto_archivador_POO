@@ -41,7 +41,7 @@ function calcularDescuentoSisben(valor, nivelSisben) {
 
 // Función para calcular el costo adicional por régimen contributivo
 function calcularCostoAdicional(ingresos, valor) {
-    const salarioMinimo = 908526; // Valor del salario mínimo en Colombia para el año 2024
+    const salarioMinimo = 1300000; // Valor del salario mínimo en Colombia para el año 2024
     const salarioMinimoMultiplo = Math.floor(ingresos / salarioMinimo);
     return salarioMinimoMultiplo > 3 ? (salarioMinimoMultiplo - 3) * (valor * 0.1) : 0;
 }
