@@ -1,0 +1,28 @@
+Una farmaceutica tiene diferentes laboratorios dedicados a tomar muestras.
+
+Cada laboratorio requiere los datos minimos de las personas que van a practicarse las pruebas (nombre, edad, genero). 
+Cada prueba tiene un valor diferente, hay personas que pueden practicarse multiples pruebas.
+
+Algunas pruebas tienen descuento para personas que pertenecen al sistema A, B1 y B2. Algunas pruebas dan los descuentos asi:
+
+Sisben nivel A: Descuento del 10%
+Sisben nivel B1: Descuento del 5%
+Sisben nivel B2: Descuento del 2%
+
+No todas las pruebas tienen descuento.
+
+Adicional a ese descuento el laboratorio tiene en cuenta si la persona que desea practicarse la prueba es de regimen subsidiado
+o de regimen contributivo. Cuando es una persona de regimen contributivo, si la persona gana mas de 3 salarios minimos, entonces
+esta persona debe pagar un valor del 10% sobre el costo de la prueba por cada salario minimo adicional que gane.
+
+Se debe permitir registrar, pacientes, laboratorios y pruebas/examenes.
+
+La farmaceutica desea conocer:
+
+1. Ingresos totales por concepto de pruebas de laboratorio
+2. Ingresos totales segun el regimen: contributivo o subsidiado
+3. Las pruebas de laboratorio o examenes tienen un tipo, ejemplo (sangre, ojos, oidos...etc). La empresa desea saber
+cual tipo de examen esta generando mayores ingresos.
+4. total de descuentos brindados segun el sisben. En este punto el nivel de sistema debe ser un parametro agregado al sistema.
+5. El promedio de dinero que ha ingresado por concepto de examenes por laboratorio y desea conocer, cuales son los laboratorios
+que estan por debajo del promedio y cuales son los laboratorios que estan por encima del promedio.
